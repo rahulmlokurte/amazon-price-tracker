@@ -6,10 +6,12 @@ The repository is used to track the price of a particular product on Amazon. It 
 
 The product URL, buying price, email id are all taken from the `.env` file
 
+```python
 URL = os.getenv("URL")
 email_id = os.getenv("EMAIL_ID")
 password = os.getenv("APP_PASSWORD")
 BUY_PRICE = os.getenv("BUY_PRICE")
+```
 
 ## constraints
 
